@@ -133,7 +133,7 @@ sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/lib/dpkg/lock
 ```
 
-### 4.
+### 4. no enough free space
 
 ```bash
 You don‘t have enough free space in /var/cache/apt/archives
@@ -144,8 +144,7 @@ You don‘t have enough free space in /var/cache/apt/archives
 ```bash
 sudo apt autoclean
 sudo apt autoclean
-sudo apt autoremove 
-docker system prune
+sudo apt autoremove
 ```
 
 但是不管用啊。由于本身硬盘空间只有16G，所以不管用，唯一的办法就是给`var/cache/apt/archives`创建一个软链接。
@@ -172,15 +171,21 @@ sudo ln -s "/userdata" /var/cache/apt/archives
 
 然后再执行sudo apt-get upgrade就不会报错了。
 
-/* 这个煞笔错误困扰了我两个下午才找到解决方法*/
+/* 这个煞笔错误困扰了我两个下午才解决*/
 
-### 5.
+### 5. Read-only file system
 
 ```bash
 dpkg: error: unable to access dpkg status area: Read-only file system
 ```
 
+/* 这个错误当时没有找到解决方案，直接导致用小米4做服务器的计划失败*/
 
 
-/* 这个错误在当时没有找到解决方案，直接导致用小米4做服务器的计划失败*/
 
+
+2026-01-10 增：
+
+现在来看，我当时的根目录挂载在/dev/loop0上，这意味着这个Ubuntu是跑在一个镜像文件（类似虚拟磁盘？）里，而不是直接安装在物理分区上，而这个镜像文件的大小在刷机的时候就已经固定为2GB，这对一个系统来说太小了，当系统在尝试写入数据却发现空间耗尽时，为了保护文件系统不被损坏，内核会自动将该分区降级为read only模式。
+
+一旦镜像文件满了，物理分区/userdata剩下再多空间也没用。如果想要解决这个问题，可能需要重新分区。但是当时折腾的那个手机已经找不到了，无从验证🤣
