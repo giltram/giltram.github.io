@@ -1,7 +1,8 @@
 ---
+title: /about
 layout: default
 permalink: /about.html
-robots: noindex
+# robots: noindex
 ---
 
 # about
