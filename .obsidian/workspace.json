@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2025-10-08-Navidrome的配置.md",
+                "file": "_posts/2025-10-08-navidrome.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-10-08-Navidrome的配置"
+              "title": "2025-10-08-navidrome"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2025-10-08-Navidrome的配置.md",
+                "file": "_posts/2025-10-08-navidrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-10-08-Navidrome的配置"
+              "title": "Backlinks for 2025-10-08-navidrome"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2025-10-08-Navidrome的配置.md",
+                "file": "_posts/2025-10-08-navidrome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025-10-08-Navidrome的配置"
+              "title": "Outgoing links from 2025-10-08-navidrome"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2025-10-08-Navidrome的配置.md",
+                "file": "_posts/2025-10-08-navidrome.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-10-08-Navidrome的配置"
+              "title": "Outline of 2025-10-08-navidrome"
             }
           }
         ]
@@ -166,12 +166,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5ad57d612bdfa210",
   "lastOpenFiles": [
     "about.md",
+    "_posts/2025-10-08-navidrome.md",
     "index.md",
     "README.md"
   ]

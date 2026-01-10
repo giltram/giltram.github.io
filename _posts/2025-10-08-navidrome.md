@@ -1,10 +1,10 @@
 ---
-title: navidrome的配置
+title: navidrome
 layout: post
 permalink: /navidrome.html
 ---
 
-# navidrome的配置
+# navidrome
 
 ## 0. Environment
 Ubuntu20.04

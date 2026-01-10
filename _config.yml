@@ -4,7 +4,7 @@ header_pages:
  - index.md
  - about.md
 
-footer: '<a href="https://github.com/b2a3e8/jekyll-theme-console">Theme</a>'
+footer: 'Powered by Jekyll and <a href="https://github.com/b2a3e8/jekyll-theme-console">Console Theme</a>'
 
 plugins:
   - jekyll-seo-tag
