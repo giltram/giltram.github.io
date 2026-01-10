@@ -2,7 +2,7 @@
 
 header_pages:
  - index.md
- - about.md
+ - /about.md
 
 footer: '<a href="https://github.com/b2a3e8/jekyll-theme-console">Theme</a>'
 
