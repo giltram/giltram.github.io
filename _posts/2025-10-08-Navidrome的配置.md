@@ -1,5 +1,5 @@
 ---
-title: navidrome
+title: navidrome的配置
 layout: post
 permalink: /navidrome.html
 ---
