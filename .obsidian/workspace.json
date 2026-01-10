@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-24-XiaoMi4-&-Ubuntu.md",
+                "file": "_posts/2022-11-22-deploy-django-app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2023-07-24-XiaoMi4-&-Ubuntu"
+              "title": "2022-11-22-deploy-django-app"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-24-XiaoMi4-&-Ubuntu.md",
+                "file": "_posts/2022-11-22-deploy-django-app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2023-07-24-XiaoMi4-&-Ubuntu"
+              "title": "Backlinks for 2022-11-22-deploy-django-app"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-24-XiaoMi4-&-Ubuntu.md",
+                "file": "_posts/2022-11-22-deploy-django-app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2023-07-24-XiaoMi4-&-Ubuntu"
+              "title": "Outgoing links from 2022-11-22-deploy-django-app"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-24-XiaoMi4-&-Ubuntu.md",
+                "file": "_posts/2022-11-22-deploy-django-app.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2023-07-24-XiaoMi4-&-Ubuntu"
+              "title": "Outline of 2022-11-22-deploy-django-app"
             }
           }
         ]
@@ -172,8 +172,10 @@
   },
   "active": "5ad57d612bdfa210",
   "lastOpenFiles": [
-    "_posts/2023-10-22-django-to-exe.md",
     "_posts/2023-07-24-XiaoMi4-&-Ubuntu.md",
+    "_posts/2022-11-22-deploy-django-app.md",
+    "_posts/django部署.md",
+    "_posts/2023-10-22-django-to-exe.md",
     "_posts/XiaoMi4&Ubuntu.md",
     "_posts/XiaoMi4&Ubuntu的爱恨情仇.md",
     "index.md",
